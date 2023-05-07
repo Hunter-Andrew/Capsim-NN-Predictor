@@ -4,6 +4,10 @@ By: Andrew Hunter
 
 Project Duration/Timeline: April 2023 to May 2023
 
+## Executive Summary:
+
+Using data from a business simulation called Capsim, the goal of this project is to predict a product's Customer Survey Score (CSS) using given product parameters. The data is extracted from Fast Track reports (specifically pages 5 and 6) using a python script. Addtional attributes/parameters are also derived from this data. The simulation/game has several mechanics and rules essential to understanding how the CSS is calculated, including reasons to eliminate some rows and columns, as well as the reasons 2 models were trained and used, depending on the row's segment. After building and testing the models, it was concluded that the desired prediction accuracy was not achieved, but valuable lessons were learned that will assist in further refining the models in the future.
+
 ## Purpose/Context: 
 
 Overall Project Goal: Predict a product's CSS
