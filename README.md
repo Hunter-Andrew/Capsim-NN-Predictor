@@ -34,7 +34,7 @@ It should be quickly noted that a product's CSS changes over the course of a yea
 
 ## Extracting the Data:
 
-The data given is presented in pdf files given at the end of each round during the simulation called the Fast Track. Specifically, we're interested in pages 5 and 6, as they contain the top products in that segment, what their parameters are, and the CSS. In the simulation, there were 3 practice rounds to get us familiar with the game, then we restarted everything to go on to the 8 competitive rounds. The fast tracks can be found [here](./fasttracks). 
+The data given is presented in pdf files given at the end of each round during the simulation called the Fast Track. Specifically, we're interested in pages 5 and 6, as they contain the top products in that segment, what their parameters are, and the CSS. In the simulation, there were 3 practice rounds to get us familiar with the game, then we restarted everything to go on to the 8 competitive rounds. You can view the [fast tracks here](./fast_tracks). 
 
 While I could manually enter the information from these tables into a useable format for python or a csv file, this would take a long time both when making the project, as well as for any users that want to use the model created in this product to predict their product(s)'s CSS. So instead, I copied and pasted the tables from the fast tracks into a text file, where I then created a python script [extract_data.py](./extract_data.py) to extract the information from the text file and put it into a 2d  numpy array. 
 
